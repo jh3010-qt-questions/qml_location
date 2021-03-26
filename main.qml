@@ -18,8 +18,8 @@ Window
     {
     }
 
-//    MyDeeperComponent
-//    {
-//    }
+    MyDeeperComponent
+    {
+    }
   }
 }
