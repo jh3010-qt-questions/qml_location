@@ -1,7 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>MyDeepComponent.qml</file>
-        <file>MyDeepComponentForm.ui.qml</file>
+        <file>qml/MyDeepComponent.qml</file>
+        <file>qml/MyDeepComponentForm.ui.qml</file>
+        <file>qml/more/MyDeeperComponent.qml</file>
+        <file>qml/more/MyDeeperComponentForm.ui.qml</file>
     </qresource>
 </RCC>
