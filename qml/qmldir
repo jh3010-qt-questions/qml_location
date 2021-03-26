@@ -1,0 +1,4 @@
+module MyApplication
+
+MyDeepComponent         1.0 MyDeepComponent.qml
+MyDeeperComponent       1.0 more/MyDeeperComponent.qml
