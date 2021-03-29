@@ -5,5 +5,7 @@
         <file>qml/MyDeepComponentForm.ui.qml</file>
         <file>qml/more/MyDeeperComponent.qml</file>
         <file>qml/more/MyDeeperComponentForm.ui.qml</file>
+        <file>qml/MySquare.qml</file>
+        <file>qml/MySquareForm.ui.qml</file>
     </qresource>
 </RCC>
