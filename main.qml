@@ -40,11 +40,12 @@ Window
 
       for ( var index in componentNames )
       {
-          generateOneObject(componentNames[index])
+          generateOneObject( componentNames[ index ] )
       }
   }
 
-  Component.onCompleted: {
+  Component.onCompleted:
+  {
       generateObjects()
   }
 
