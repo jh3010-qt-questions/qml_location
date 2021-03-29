@@ -14,12 +14,11 @@ Window
 
   Column
   {
-    MyDeepComponent
-    {
+    Loader {
+        source: "qrc:/qml/MyDeepComponent.qml"
     }
-
-    MyDeeperComponent
-    {
+    Loader {
+        source: "qrc:/qml/more/MyDeeperComponent.qml"
     }
   }
 }
