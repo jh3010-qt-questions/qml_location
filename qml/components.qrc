@@ -1,10 +1,9 @@
-<!DOCTYPE RCC>
-<RCC version="1.0">
-    <qresource prefix="/qml/MyApplication">
+<RCC>
+    <qresource prefix="/qml/Components">
+        <file>qmldir</file>
         <file>MyDeepComponent.qml</file>
         <file>MyDeepComponentForm.ui.qml</file>
         <file>more/MyDeeperComponent.qml</file>
         <file>more/MyDeeperComponentForm.ui.qml</file>
-        <file>qmldir</file>
     </qresource>
 </RCC>

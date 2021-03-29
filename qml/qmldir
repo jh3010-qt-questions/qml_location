@@ -1,4 +1,6 @@
-module MyApplication
+module Components
 
-MyDeepComponent         1.0 MyDeepComponent.qml
-MyDeeperComponent       1.0 more/MyDeeperComponent.qml
+MyDeepComponent         1.0     MyDeepComponent.qml
+MyDeepComponentForm     1.0     MyDeepComponentForm.ui.qml
+MyDeeperComponent       1.0     more/MyDeeperComponent.qml
+MyDeeperComponentForm   1.0     more/MyDeeperComponentForm.ui.qml
