@@ -12,14 +12,44 @@ Window
 
   title: qsTr("Hello World")
 
+  property var componentNames: [ "qml/more/MyDeeperComponent.qml", "qml/MyDeepComponent.qml" ]
+
+  function generateObjects()
+  {
+      function generateOneObject( name )
+      {
+          var component
+          var componentObject
+
+          function finishCreation()
+          {
+              componentObject = component.createObject( contentColumn );
+          }
+
+          component = Qt.createComponent( `qrc:/${name}` )
+
+          if ( component.status === Component.Ready )
+          {
+              finishCreation()
+          }
+          else
+          {
+              component.statusChanged.connect( finishCreation );
+          }
+      }
+
+      for ( var index in componentNames )
+      {
+          generateOneObject(componentNames[index])
+      }
+  }
+
+  Component.onCompleted: {
+      generateObjects()
+  }
+
   Column
   {
-    MyDeepComponent
-    {
-    }
-
-    MyDeeperComponent
-    {
-    }
+    id: contentColumn
   }
 }
