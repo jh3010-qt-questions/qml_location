@@ -7,5 +7,4 @@ Rectangle {
   color: "green"
 
   MySquare {}
-
 }

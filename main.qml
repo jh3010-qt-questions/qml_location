@@ -14,15 +14,8 @@ Window
   {
     MySquare {}
 
-//    Loader {
-//        source: "qrc:/qml/MyDeepComponent.qml"
-//    }
-//    Loader {
-//        source: "qrc:/qml/more/MyDeeperComponent.qml"
-//    }
-
-//    MyDeepComponent {}
-//    MyDeeperComponent {}
-
+    Loader {
+        source: "qrc:/qml/more/MyDeeperComponent.qml"
+    }
   }
 }
