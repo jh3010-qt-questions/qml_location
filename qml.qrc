@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
+        <file>qml/main.qml</file>
         <file>qml/MyDeepComponent.qml</file>
         <file>qml/MyDeepComponentForm.ui.qml</file>
         <file>qml/more/MyDeeperComponent.qml</file>
